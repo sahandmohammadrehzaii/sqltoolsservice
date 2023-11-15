@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<AssemblyName>MicrosoftSqlToolsSqlCore</AssemblyName>
-		<Nullable>disable</Nullable>
+		<Nullable>enable</Nullable>
 		<EnableDefaultItems>false</EnableDefaultItems>
 		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
 		<EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
@@ -15,9 +15,12 @@
 		<TargetFramework>net6.0</TargetFramework>
 		<AssemblyName>Microsoft.SqlTools.SqlCore</AssemblyName>
 		<Version>1.0.0</Version>
+		<NoWarn>CS8632</NoWarn>
 	</PropertyGroup>
 	<ItemGroup>
 		<Compile Include="**\*.cs" Exclude="**/obj/**/*.cs" />
+		<Compile Remove="Localization/**/*.cs" />
+		<Compile Include="Localization/**/*.cs" Nullable="enable" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="Microsoft.SqlServer.SqlManagementObjects" />
@@ -27,7 +30,6 @@
 	<ItemGroup>
 		<ProjectReference Include="../Microsoft.SqlTools.Hosting/Microsoft.SqlTools.Hosting.csproj" PrivateAssets="all" />
 		<ProjectReference Include="../Microsoft.SqlTools.ManagedBatchParser/Microsoft.SqlTools.ManagedBatchParser.csproj" PrivateAssets="all" />
-
 	</ItemGroup>
 	<ItemGroup>
 		<EmbeddedResource Include="Localization\*.resx" />
