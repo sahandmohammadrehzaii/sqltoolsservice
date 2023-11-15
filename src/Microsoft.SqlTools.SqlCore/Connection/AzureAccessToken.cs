@@ -6,6 +6,8 @@
 using System;
 using Microsoft.SqlServer.Management.Common;
 
+#nullable disable
+
 namespace Microsoft.SqlTools.SqlCore.Connection
 {
     public class AzureAccessToken : IRenewableToken

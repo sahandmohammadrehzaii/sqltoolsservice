@@ -8,6 +8,8 @@ using System.Collections;
 using System.Collections.Generic;
 using Microsoft.SqlServer.Management.Smo;
 
+#nullable disable
+
 namespace Microsoft.SqlTools.SqlCore.ObjectExplorer.SmoModel
 {
     /// <summary>

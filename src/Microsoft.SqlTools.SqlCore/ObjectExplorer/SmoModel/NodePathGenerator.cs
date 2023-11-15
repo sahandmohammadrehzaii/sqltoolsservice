@@ -9,6 +9,8 @@ using System.Linq;
 using System.Xml.Serialization;
 using System.Reflection;
 
+#nullable disable
+
 namespace Microsoft.SqlTools.SqlCore.ObjectExplorer.SmoModel
 {
     public class NodePathGenerator

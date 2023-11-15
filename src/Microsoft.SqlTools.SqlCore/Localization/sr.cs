@@ -3,6 +3,7 @@
 // from information in sr.strings
 // DO NOT MODIFY THIS FILE'S CONTENTS, THEY WILL BE OVERWRITTEN
 //
+
 namespace Microsoft.SqlTools.SqlCore
 {
     using System;
@@ -16,7 +17,7 @@ namespace Microsoft.SqlTools.SqlCore
         protected SR()
         { }
 
-        public static CultureInfo Culture
+        public static CultureInfo? Culture
         {
             get
             {
@@ -1737,7 +1738,7 @@ namespace Microsoft.SqlTools.SqlCore
         {
             get
             {
-                return Keys.GetString(Keys.ScriptingParams_FilePath_Property_Invalid);
+                return Keys.GetString(Keys.ScriptingParams_FilePath_Property_Invalid)!;
             }
         }
 
@@ -1745,7 +1746,7 @@ namespace Microsoft.SqlTools.SqlCore
         {
             get
             {
-                return Keys.GetString(Keys.ScriptingListObjectsCompleteParams_ConnectionString_Property_Invalid);
+                return Keys.GetString(Keys.ScriptingListObjectsCompleteParams_ConnectionString_Property_Invalid)!;
             }
         }
 
@@ -1753,7 +1754,7 @@ namespace Microsoft.SqlTools.SqlCore
         {
             get
             {
-                return Keys.GetString(Keys.StoredProcedureScriptParameterComment);
+                return Keys.GetString(Keys.StoredProcedureScriptParameterComment)!;
             }
         }
 
@@ -1761,7 +1762,7 @@ namespace Microsoft.SqlTools.SqlCore
         {
             get
             {
-                return Keys.GetString(Keys.ScriptingGeneralError);
+                return Keys.GetString(Keys.ScriptingGeneralError)!;
             }
         }
 
@@ -1778,7 +1779,7 @@ namespace Microsoft.SqlTools.SqlCore
         {
             static ResourceManager resourceManager = new ResourceManager("Microsoft.SqlTools.SqlCore.Localization.SR", typeof(SR).GetTypeInfo().Assembly);
 
-            static CultureInfo _culture = null;
+            static CultureInfo? _culture = null;
 
 
             public const string TreeNodeError = "TreeNodeError";
@@ -2438,7 +2439,7 @@ namespace Microsoft.SqlTools.SqlCore
             private Keys()
             { }
 
-            public static CultureInfo Culture
+            public static CultureInfo? Culture
             {
                 get
                 {
@@ -2450,7 +2451,7 @@ namespace Microsoft.SqlTools.SqlCore
                 }
             }
 
-            public static string GetString(string key)
+            public static string? GetString(string key)
             {
                 return resourceManager.GetString(key, _culture);
             }

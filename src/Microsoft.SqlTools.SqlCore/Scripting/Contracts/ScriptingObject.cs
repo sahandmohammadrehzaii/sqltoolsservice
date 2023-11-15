@@ -5,6 +5,8 @@
 
 using System;
 
+#nullable disable
+
 namespace Microsoft.SqlTools.SqlCore.Scripting.Contracts
 {
     /// <summary>

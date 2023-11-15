@@ -9,6 +9,8 @@ using System.Data;
 using Microsoft.SqlServer.Management.Smo;
 using Microsoft.SqlTools.Extensibility;
 
+#nullable disable
+
 namespace Microsoft.SqlTools.SqlCore.ObjectExplorer.SmoModel
 {
     /// <summary>

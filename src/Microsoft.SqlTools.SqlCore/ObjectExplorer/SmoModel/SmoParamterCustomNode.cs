@@ -6,6 +6,8 @@
 using System.Globalization;
 using Microsoft.SqlServer.Management.Smo;
 
+#nullable disable
+
 namespace Microsoft.SqlTools.SqlCore.ObjectExplorer.SmoModel
 {
     /// <summary>

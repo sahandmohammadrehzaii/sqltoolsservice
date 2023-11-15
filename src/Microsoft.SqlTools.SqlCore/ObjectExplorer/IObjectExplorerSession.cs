@@ -5,6 +5,8 @@
 
 using Microsoft.SqlTools.SqlCore.ObjectExplorer.Nodes;
 
+#nullable disable
+
 namespace Microsoft.SqlTools.SqlCore.ObjectExplorer
 {
     public class IObjectExplorerSession

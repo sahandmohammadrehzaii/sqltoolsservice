@@ -12,6 +12,8 @@ using Microsoft.SqlServer.Management.Sdk.Sfc;
 using Microsoft.SqlServer.Management.Smo;
 using Microsoft.SqlTools.Utility;
 
+#nullable disable
+
 namespace Microsoft.SqlTools.SqlCore.Scripting
 {
     /// <summary>

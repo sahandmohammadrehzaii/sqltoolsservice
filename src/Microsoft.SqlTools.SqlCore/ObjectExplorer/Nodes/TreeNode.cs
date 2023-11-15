@@ -13,6 +13,8 @@ using Microsoft.SqlTools.SqlCore.ObjectExplorer.SmoModel;
 using Microsoft.SqlTools.SqlCore.Utility;
 using Microsoft.SqlTools.Utility;
 
+#nullable disable
+
 namespace Microsoft.SqlTools.SqlCore.ObjectExplorer.Nodes
 {
     /// <summary>

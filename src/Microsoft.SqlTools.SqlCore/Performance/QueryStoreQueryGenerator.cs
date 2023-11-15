@@ -19,8 +19,6 @@ using Microsoft.SqlServer.Management.QueryStoreModel.RegressedQueries;
 using Microsoft.SqlServer.Management.QueryStoreModel.TopResourceConsumers;
 using Microsoft.SqlServer.Management.QueryStoreModel.TrackedQueries;
 
-#nullable enable
-
 namespace Microsoft.SqlTools.SqlCore.Performance
 {
     public static class QueryStoreQueryGenerator

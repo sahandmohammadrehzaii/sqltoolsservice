@@ -7,6 +7,8 @@ using Microsoft.SqlServer.Management.Smo;
 using Microsoft.SqlTools.SqlCore.Metadata;
 using Microsoft.SqlTools.SqlCore.ObjectExplorer.Nodes;
 
+#nullable disable
+
 namespace Microsoft.SqlTools.SqlCore.ObjectExplorer.SmoModel
 {
     /// <summary>

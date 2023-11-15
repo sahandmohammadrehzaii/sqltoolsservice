@@ -5,6 +5,8 @@
 
 using System.Collections.Generic;
 
+#nullable disable
+
 namespace Microsoft.SqlTools.SqlCore.Scripting.Contracts
 {
     /// <summary>

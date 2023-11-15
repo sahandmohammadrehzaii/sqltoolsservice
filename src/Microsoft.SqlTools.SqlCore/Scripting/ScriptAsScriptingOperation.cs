@@ -19,6 +19,8 @@ using Microsoft.SqlTools.SqlCore.Scripting.Contracts;
 using Microsoft.SqlTools.SqlCore.Utility;
 using Microsoft.SqlTools.Utility;
 
+#nullable disable
+
 namespace Microsoft.SqlTools.SqlCore.Scripting
 {
     /// <summary>

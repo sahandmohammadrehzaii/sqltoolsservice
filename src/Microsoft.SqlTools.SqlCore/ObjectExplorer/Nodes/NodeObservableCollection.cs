@@ -9,6 +9,8 @@ using System.Linq;
 
 using Microsoft.SqlTools.SqlCore.ObjectExplorer.SmoModel;
 
+#nullable disable
+
 namespace Microsoft.SqlTools.SqlCore.ObjectExplorer.Nodes
 {
     /// <summary>

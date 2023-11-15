@@ -6,8 +6,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
-
 using Microsoft.SqlTools.SqlCore.Utility;
+
+#nullable disable
 
 namespace Microsoft.SqlTools.SqlCore.ObjectExplorer.Nodes
 {

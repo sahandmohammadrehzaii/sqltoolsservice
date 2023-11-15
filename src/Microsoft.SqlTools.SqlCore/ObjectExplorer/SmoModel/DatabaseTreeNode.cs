@@ -12,6 +12,8 @@ using Microsoft.SqlServer.Management.Smo;
 using Microsoft.SqlTools.SqlCore.ObjectExplorer.Nodes;
 using Microsoft.SqlTools.Utility;
 
+#nullable disable
+
 namespace Microsoft.SqlTools.SqlCore.ObjectExplorer.SmoModel
 {
     public partial class DatabaseTreeNode

@@ -9,6 +9,8 @@ using Microsoft.SqlTools.Extensibility;
 using Microsoft.SqlTools.SqlCore.Connection;
 using Microsoft.SqlTools.SqlCore.ObjectExplorer.Nodes;
 
+#nullable disable
+
 namespace Microsoft.SqlTools.SqlCore.ObjectExplorer.SmoModel
 {
     /// <summary>

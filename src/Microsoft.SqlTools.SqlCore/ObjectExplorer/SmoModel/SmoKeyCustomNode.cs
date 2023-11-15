@@ -9,6 +9,8 @@ using Microsoft.SqlServer.Management.Smo;
 using Microsoft.SqlTools.SqlCore.ObjectExplorer.Nodes;
 using Index = Microsoft.SqlServer.Management.Smo.Index;
 
+#nullable disable
+
 namespace Microsoft.SqlTools.SqlCore.ObjectExplorer.SmoModel
 {
     /// <summary>

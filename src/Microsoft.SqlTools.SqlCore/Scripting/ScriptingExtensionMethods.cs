@@ -11,6 +11,8 @@ using Microsoft.SqlServer.Management.SqlScriptPublish;
 using Microsoft.SqlTools.SqlCore.Scripting.Contracts;
 using Microsoft.SqlTools.Utility;
 
+#nullable disable
+
 namespace Microsoft.SqlTools.SqlCore.Scripting
 {
     /// <summary>
