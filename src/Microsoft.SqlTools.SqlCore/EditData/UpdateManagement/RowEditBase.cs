@@ -38,7 +38,7 @@ namespace Microsoft.SqlTools.ServiceLayer.EditData.UpdateManagement
         /// <param name="rowId">The internal ID of the row that is being edited</param>
         /// <param name="associatedResultSet">The result set that will be updated</param>
         /// <param name="associatedMetadata">Metadata provider for the object to edit</param>
-        protected RowEditBase(long rowId, ResultSet associatedResultSet, EditTableMetadata associatedMetadata)
+        protected RowEditBase(long rowId, ResultSetCore associatedResultSet, EditTableMetadata associatedMetadata)
         {
             if (!associatedMetadata.HasExtendedProperties)
             {
@@ -62,7 +62,7 @@ namespace Microsoft.SqlTools.ServiceLayer.EditData.UpdateManagement
         /// <summary>
         /// The result set that is associated with this row edit
         /// </summary>
-        public ResultSet AssociatedResultSet { get; }
+        public ResultSetCore AssociatedResultSet { get; }
 
         /// <summary>
         /// The metadata for the table this edit is associated to

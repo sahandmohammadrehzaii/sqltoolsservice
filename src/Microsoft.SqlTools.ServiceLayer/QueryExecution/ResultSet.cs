@@ -165,11 +165,6 @@ namespace Microsoft.SqlTools.ServiceLayer.QueryExecution
         #region Properties
 
         /// <summary>
-        /// The columns for this result set
-        /// </summary>
-        public DbColumnWrapper[] Columns { get; private set; }
-
-        /// <summary>
         /// ID of the result set, relative to the batch
         /// </summary>
         public int Id { get; private set; }
